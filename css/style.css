@@ -70,10 +70,10 @@
 			border: 0;
 		}
 
-	h2 {
-		font-size: 1.5em;
-		letter-spacing: 0.1em;
-	}
+h2 {
+  font-size: 3.5em;
+  letter-spacing: 0.1em;
+}
 
 	h3 {
 		font-size: 1.15em;
@@ -1125,5 +1125,43 @@ header#header ul.icons {
   color: #2b2b2b;
   font-size: 12pt;
 }
+.port-hola-txt{
+	  font-size: 16pt;
+  font-weight: 400;
+}
+.line {
+  display: inline-block;
+  border-bottom: 1px #5B3400 dotted;
+  margin-left: 5px;
+  color: #000;
+  top: -50px;
+  width: 100%;
+  /* margin: -10px auto; */
+  padding: -60px 0;
+  position: relative;
+}
+
+.title-1{
+	font-weight: bold;
+	color: #000;
+  margin: -20px auto;
+  letter-spacing: -5px;
+}
+.title-2 {
+  font-size: 1em;
+  margin: -70px auto;
+  padding: 0;
+  bottom: 0;
+  line-height: 0px;
+}
+
+.title-3 {
+  font-size: 1em;
+  margin: -40px auto;
+  padding: 0;
+  bottom: 0;
+  line-height: 0px;
+}
+ 
 .row{margin: -40px 0 -1px 130px;}
 .row-2{margin: -40px 0 -1px 10px; !important}
