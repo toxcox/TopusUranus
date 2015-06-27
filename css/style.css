@@ -2,15 +2,13 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /*
-	Twenty by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ 
 */
 
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		background: #f3f6fa;
+		background: #fff;
 	}
 
 	body.is-loading * {
@@ -1107,4 +1105,25 @@ header#header ul.icons {
   position: relative;
   top: 18px;
 }
+
+.port-menu-txt{
  
+  background-color: #000;
+  color: #fff;
+ 
+}
+.cincou{
+  width: 19.666667%;
+  clear: none;
+  margin-left: 0;
+}
+.portafolio-menu{
+ 
+}
+.port-servicios-txt {
+  /* background-color: #000; */
+  color: #2b2b2b;
+  font-size: 12pt;
+}
+.row{margin: -40px 0 -1px 130px;}
+.row-2{margin: -40px 0 -1px 10px; !important}
