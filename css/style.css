@@ -2,15 +2,13 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /*
-	Twenty by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ 
 */
 
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		background: #f3f6fa;
+		background: #fff;
 	}
 
 	body.is-loading * {
@@ -72,10 +70,10 @@
 			border: 0;
 		}
 
-	h2 {
-		font-size: 1.5em;
-		letter-spacing: 0.1em;
-	}
+h2 {
+  font-size: 3.5em;
+  letter-spacing: 0.1em;
+}
 
 	h3 {
 		font-size: 1.15em;
@@ -290,6 +288,9 @@
 			text-transform: none !important;
 		}
 
+
+
+
 		.icon.circle {
 			-moz-transition: all 0.2s ease-in-out;
 			-webkit-transition: all 0.2s ease-in-out;
@@ -313,19 +314,20 @@
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
-				background: #70aecd;
-				color: white;
-			}
-
+		.icon.circle.fa-twitter {
+  background: #000;
+  border: solid 1px;
+  color: white;
+}
 				.icon.circle.fa-twitter:hover {
 					background: #7fb7d2;
 				}
 
-			.icon.circle.fa-facebook {
-				background: #7490c3;
-				color: white;
-			}
+		.icon.circle.fa-facebook {
+  background: #000;
+  border: solid 1px;
+  color: white;
+}
 
 				.icon.circle.fa-facebook:hover {
 					background: #829bc9;
@@ -790,9 +792,7 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
+		 background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: white;
@@ -812,7 +812,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+		 
 			color: white;
 			display: inline-block;
 			opacity: 0;
@@ -906,12 +906,12 @@
 
 /* Footer */
 
-	#footer {
-		background: #e8eef4;
-		color: #7c8081;
-		padding: 5em 5em 10em 5em;
-		text-align: center;
-	}
+#footer {
+  background: #1b1b1b;
+  color: #7c8081;
+  padding: 2em 5em 2em 5em;
+  text-align: center;
+}
 
 		#footer .copyright {
 			font-size: 0.8em;
@@ -1097,8 +1097,71 @@ header#header {
   background-color: #000;
 }
 
+header#header ul.icons {
+  margin: 0;
+  padding: 0;
+}
  .logo-menu{
   position: relative;
   top: 18px;
 }
+
+.port-menu-txt{
  
+  background-color: #000;
+  color: #fff;
+ 
+}
+.cincou{
+  width: 19.666667%;
+  clear: none;
+  margin-left: 0;
+}
+.portafolio-menu{
+ 
+}
+.port-servicios-txt {
+  /* background-color: #000; */
+  color: #2b2b2b;
+  font-size: 12pt;
+}
+.port-hola-txt{
+	  font-size: 16pt;
+  font-weight: 400;
+}
+.line {
+  display: inline-block;
+  border-bottom: 1px #5B3400 dotted;
+  margin-left: 5px;
+  color: #000;
+  top: -50px;
+  width: 100%;
+  /* margin: -10px auto; */
+  padding: -60px 0;
+  position: relative;
+}
+
+.title-1{
+	font-weight: bold;
+	color: #000;
+  margin: -20px auto;
+  letter-spacing: -5px;
+}
+.title-2 {
+  font-size: 1em;
+  margin: -70px auto;
+  padding: 0;
+  bottom: 0;
+  line-height: 0px;
+}
+
+.title-3 {
+  font-size: 1em;
+  margin: -40px auto;
+  padding: 0;
+  bottom: 0;
+  line-height: 0px;
+}
+ 
+.row{margin: -40px 0 -1px 130px;}
+.row-2{margin: -40px 0 -1px 10px; !important}
