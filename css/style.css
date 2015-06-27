@@ -636,17 +636,17 @@
 				font-weight: 300;
 			}
 
-		#header nav {
-			letter-spacing: 0.075em;
-			position: absolute;
-			right: 1.5em;
-			text-transform: uppercase;
-			top: 0.75em;
-		}
+#header nav {
+  letter-spacing: 0.075em;
+  position: absolute;
+  right: 1.5em;
+  text-transform: uppercase;
+  top: -0.6em;
+}
 
-			#header nav ul li {
-				display: inline-block;
-				margin-left: 1.5em;
+		#header nav ul li {
+			  display: inline-block;
+			  margin-left: 0em;
 			}
 
 				#header nav ul li > ul {
@@ -712,7 +712,7 @@
 			-o-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: transparent;
+		 
 			box-shadow: none;
 			color: white;
 			padding: 2em 2.5em;
@@ -721,7 +721,7 @@
 
 			#header.alt nav {
 				right: 2.5em;
-				top: 1.75em;
+				top: 0.5em;
 			}
 
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
@@ -1089,3 +1089,16 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+
+/*    CUSTOM CSS*/
+
+header#header {
+  background-color: #000;
+}
+
+ .logo-menu{
+  position: relative;
+  top: 18px;
+}
+ 
